@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	margin: 25px;
+	display: block;
+	text-align: center;
+	padding: 30px 0 0;
+}
+#wrapper{
+	display: flex;
+	margin: 5px;
+	flex-direction: column;
+	align-items: center;
+}
+#board{
+	display: flex;
+	border: 2px solid black;
+}
+.outer > div{
+	width: 80px;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-size: 3em;
+}
+.black{
+	background: black;
+}
+.wood{
+	background: rgb(105, 178, 178);
+}
